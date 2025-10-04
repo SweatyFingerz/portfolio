@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+
+    <header class="headerBar">
+        <nav class="mainContainer navWrapper">
+           <a href="#hero" class="logoLink">
+                
+                <span class="logoText">
+                    <span class="logoAccent">V</span>edhant
+                </span>
+
+            </a>
+            
+            
+            <input type="checkbox" id="menu-check-box" class="menuInput" aria-label="Toggle navigation">
+
+            <div id="link-list" class="navLinks"> 
+                <a href="#about" class="navItem">About</a>
+                <a href="#skills" class="navItem">Skills</a>
+                <a href="#projects" class="navItem">Projects</a>
+                <a href="#socials" class="navItem">Contact</a>
+            </div>
+            
+            <label for="menu-check-box" class="menuButton">
+                ☰ 
+            </label>
+        </nav>
+    </header>
+
+    <main class="mainContainer" style="padding-top: 2.5rem; padding-bottom: 2.5rem;">
+
+        <section id="hero" class="heroArea">
+            <div class="heroContent">
+                
+                <a href="https://www.linkedin.com/in/vedhant-vernekar-954026365/" target="_blank" title="My LinkedIn Profile">
+                    <div class="profilePictureCircle">
+                        <img 
+                            src="/face.jpg" 
+                            alt="Profile Picture Placeholder"
+                            style="width: 100%; height: 100%; object-fit: cover; display: block;"
+                        />
+                    </div>
+                </a>
+                
+                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    <h1 class="mainHeading1">
+                        Hi, I'm <span class="accentText">Vedhant</span>
+                    </h1>
+                    <p class="heroParagraph">
+                        An aspiring <span class="boldText">Software Engineer and Computer Science Student</span> passionate about impactful digital solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="sectionElement">
+            <div class="titleCentered">
+                <h2 class="sectionTitle">About Me</h2>
+            </div>
+            <div class="contentBox">
+                <p class="bodyText">
+                    I am a dedicated Computer Science student with a strong academic foundation in algorithms and system design. I specialize in backend and data applications, primarily using Python for hands-on projects, and I possess strong core programming skills in Java. I am committed to building efficient, clean code and am actively seeking an internship to translate my academic drive into professional industry experience.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="sectionElement">
+            <div class="titleCentered">
+                <h2 class="sectionTitle">Technical Skills</h2>
+            </div>
+            
+            <div class="contentBox">
+                <ul class="skill-bullet-list" style="line-height: 40px;">
+                    <li><strong>Python:</strong> Strong proficiency in scripting, data processing, and backend development with frameworks like Flask.</li>
+                    <li><strong>Pygame:</strong> Practical experience developing 2D games, managing game loops, and handling user input.</li>
+                    <li><strong>Java:</strong> Solid understanding of core Java concepts, Object-Oriented Programming (OOP) principles, and data structures.</li>
+                    <li><strong>JavaScript:</strong> Competency in front-end scripting for dynamic user interfaces.</li>
+                    <li><strong>HTML:</strong> Foundation in structuring web content for responsive and accessible applications.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="projects" class="sectionElement">
+            <div class="titleCentered">
+                <h2 class="sectionTitle">Academic and Personal Projects</h2>
+            </div>
+            
+            <div class="projectsGrid">
+                
+                <div class="projectCard">
+                    <div>
+                        <h3 class="cardHeading3">Retro Space Shooter (Pygame)</h3>
+                        <p class="cardDescription">
+                            Developed a classic 2D arcade-style space shooter game using the Pygame library. Implemented core game loops, sprite animation, complex collision detection, and a scoring system.
+                        </p>
+                        <div class="tech-badges-holder">
+                            <span class="techBadge">Python (Pygame)</span>
+                            <span class="techBadge">2D Game Dev</span>
+                            <span class="techBadge">OOP</span>
+                        </div>
+                    </div>
+                    <div class="linkWrapper">
+                        <a href="https://night-ninja-s-vow-v8kh.vercel.app/" target="_blank" class="projectButton" title="View Project Source Code">
+                            View Project &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projectCard">
+                    <div>
+                        <h3 class="cardHeading3">Real-Time Quiz Bowl Web App</h3>
+                        <p class="cardDescription">
+                            Created a low-latency, real-time multiplayer quiz game using Python (Flask) for the secure backend API, and Socket.IO to handle concurrent user interactions and dynamic state updates in the browser.
+                        </p>
+                        <div class="tech-badges-holder">
+                            <span class="techBadge">Python (Flask)</span>
+                            <span class="techBadge">Socket.IO</span>
+                            <span class="techBadge">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projectCard">
+                    <div>
+                        <h3 class="cardHeading3">Python CLI Text Adventure Engine</h3>
+                        <p class="cardDescription">
+                            Designed a robust object-oriented framework in Python for creating and playing interactive text-based adventure games. Focus on state management, efficient command parsing, and file handling.
+                        </p>
+                        <div class="tech-badges-holder">
+                            <span class="techBadge">Python</span>
+                            <span class="techBadge">OOP Design</span>
+                            <span class="techBadge">Data Structures</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="socials" class="contactSection">
+            <div class="titleCentered">
+                <h2 class="sectionTitle">Connect With Me</h2>
+            </div>
+
+            <div class="socialIconsBox">
+                
+                <a href="https://www.linkedin.com/in/vedhant-vernekar-954026365/" target="_blank" class="socialIcon iconLinkedIn" title="LinkedIn Profile">
+                    <div class="iconSize" style="background-color: #101010; border-radius: 4px; display: flex; justify-content: center; align-items: center; font-size: 0.75rem; color: #7DD5E3; border-radius: 50%">
+                        <img 
+                            src="/face.jpg" 
+                            alt="Profile Picture Placeholder"
+                            style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 50%;"
+                        />
+                    </div>
+                    <span class="iconName">LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/SweatyFingerz" target="_blank" class="socialIcon iconGitHub" title="GitHub Profile">
+                    <div class="iconSize" style="background-color: #101010; border-radius: 4px; display: flex; justify-content: center; align-items: center; font-size: 0.75rem; color: #7DD5E3; border-radius: 50%">
+                        <img 
+                            src="/git.jpg" 
+                            alt="Profile Picture Placeholder"
+                            style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 50%"
+                        />
+                    </div>
+                    <span class="iconName">GitHub</span>
+                </a>
+
+                <a href="vedver55@gmail.com" class="socialIcon iconMail" title="Send Email">
+                    <div class="iconSize" style="background-color: #101010; border-radius: 4px; display: flex; justify-content: center; align-items: center; font-size: 1.5rem; color: #7DD5E3; border-radius: 50%">
+                        @
+                    </div>
+                    <span class="iconName">Email Me</span>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+     
+    <footer class="mainFooter">
+        <p>&copy; 2025 Vedhant. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
